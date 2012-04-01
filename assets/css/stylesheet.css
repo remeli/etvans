@@ -7,6 +7,12 @@ body{
   font:16px/1.3 "myriad-pro-1","myriad-pro-2","Lucida Grande",Sans-Serif;
   background:url('../images/bg.gif');
 }
+a{
+  color:#DADADA;
+}
+a:hover{
+  text-decoration:none;
+}
 #big-wrapper{
   width:80%;
   margin:0 auto;
@@ -53,7 +59,7 @@ body{
 .desc-block ul li{
   font-size:12px;
   margin-top:5px;
-  list-style-type:square;
+  list-style-type:circle;
   margin-left:15px;
 }
 .without ul{
@@ -120,10 +126,6 @@ body{
   height:346px;
   width:351px;
 }
-footer{
-  border:1px solid #ccc;
-  height:300px;
-}
 #rules{
   background:url('../images/rules.png') no-repeat;
   width:104px;
@@ -139,7 +141,7 @@ footer{
   height:149px;
   position:absolute;
   top:1300px;
-  left:90%;
+  left:89.5%;
   z-index:-1; 
 }
 .arrow1{
@@ -181,4 +183,77 @@ footer{
   width:142px;
   margin-left:60%;
   margin-top:-90px;
+}
+#plus{
+  margin-top:40px;
+/*  border:1px solid #ccc;*/
+  background:url('../images/line-header.png') no-repeat 50% -20px; 
+  height:426px;
+}
+.desc-plus{
+  margin-top:35px;
+  float:left;
+  width:68%;
+  padding:0px 10px 0px 60px;
+/*  border:1px solid #ccc;*/
+}
+.desc-plus h1{
+  font-size:30px;
+  color:#898989;
+}
+.desc-plus ul{
+  color:#535353;
+  font-size:14px;
+  letter-spacing:-0.5px;
+  margin-top:10px;
+  margin-left:25px;
+}
+.desc-plus ul li{
+  margin-top:5px;
+  list-style-type:circle;
+}
+.plus-icon{
+  width:120px;
+  height:120px;
+  background:url('../images/plus.png') no-repeat;
+  margin-top:100px;
+  margin-left:20px;
+  float:left;
+}
+.access{
+/*  border:1px solid #ccc;*/
+  height:105px;
+  padding-left:70px;
+  padding-top:30px;
+}
+.but{
+  font-size:22px;
+  width:260px;
+  height:73px;
+  border:none;
+  text-shadow: 1px 1px 0px #BFBFBF; 
+  background:url('../images/button.png') no-repeat;
+}
+.but:hover{
+  cursor:pointer;
+}
+footer{
+  color:#fff;
+  font-size:11px;
+  font-weight:normal;
+  margin-top:20px;
+  background:#232323;
+  height:205px;
+  padding:20px;
+}
+.copy{
+  float:right;
+}
+.contacts{
+  clear:both;
+  margin-top:110px;
+  font-size:12px;
+}
+.contacts p{
+  margin-top:2px;
 }
