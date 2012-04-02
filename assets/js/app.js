@@ -57,3 +57,7 @@ $(document).ready(function() {
   
   
 });
+// windows:
+$(document).ready(function() {
+  $("button#demo").fancybox();
+});

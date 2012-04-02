@@ -28,11 +28,13 @@ a:hover{
 }
 #box{
   float:left;
-  margin-left:10px;
+/*  border:1px solid #ccc;*/
+  margin-left:35px;
+  margin-top:15px;
 }
 #main-title{
   float:left;
-  margin:50px 0px 0px 30px;
+  margin:50px 0px 0px 40px;
   letter-spacing:-1px;
 }
 #main-title h1{
@@ -323,4 +325,30 @@ footer .arrow6{
 }
 .where h1:hover{
   color:#5A5A5A;
+}
+
+/* modal windows: */
+#demo-window{
+  width:580px;
+  height:250px;
+}
+#demo-window .title-demo{
+  font-size:30px;
+  margin-top:20px;
+  text-align:center;
+  letter-spacing:-1px;
+}
+#demo-window .desc-demo{
+  margin-top:20px;
+  padding-left:10px;
+  padding-right:10px;
+}
+#demo-window .desc-demo p{
+  margin-bottom:10px;
+}
+#demo-window a{
+  color:#6C6C6C;
+}
+.access-demo{
+  font-weight:bold;
 }

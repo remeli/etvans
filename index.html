@@ -5,7 +5,10 @@
   <title>Этванс</title>
   <link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
   <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="assets/css/jquery.fancybox-1.3.4.css" media="all" />
   <script type="text/javascript" src="assets/js/jquery-1.7.2.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.easing-1.3.pack.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.fancybox-1.3.4.pack.js"></script>
   <script type="text/javascript" src="assets/js/app.js"></script>
 </head>
 <body>
@@ -15,7 +18,7 @@
     <header id="top-header">
       <div id="box">
         <a href="index.html">
-          <img src="assets/images/box.png" alt="">
+          <img src="assets/images/screenshot.png" alt="">
         </a>
       </div>
       <div id="main-title">
@@ -93,8 +96,25 @@
         <div class="plus-icon"></div>
         <div class="clear"></div>
         <div class="access">
-          <button id="demo" class="but">Демо доступ</button>
+          <button id="demo" href="#demo-window" class="but">Демо доступ</button>
           <button id="trial" class="but">30 дней бесплатно</button>
+          <div style="display:none">
+            <div id="demo-window">
+              <h1 class="title-demo">Демо доступ</h1>
+              <div class="desc-demo">
+                <p>
+                  Пройдите по ссылке: 
+                  <a href="http://demo.remeli.kz" target="_blank">demo.remeli.kz</a>
+                </p>
+                <p>Далее используйте следующие данные для входа в систему:</p>
+                <p>
+                  e-mail: <span class="access-demo">admin@example.com</span></p>
+                <p>
+                  пароль: <span class="access-demo">secretpassword</span>
+                </p>
+              </div>
+            </div>  
+          </div>
         </div>
       </div>
       <div class="prices">
