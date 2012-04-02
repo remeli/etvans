@@ -49,5 +49,11 @@ $(document).ready(function() {
     $('#etvans-server img').attr('src', 'assets/images/etvans-server.png')
   });
   
+  $('#a6').hover(function() {
+    $('.arrow6').show();
+  }, function() {
+    $('.arrow6').hide();
+  });
+  
   
 });
