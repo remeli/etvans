@@ -88,6 +88,10 @@ a:hover{
   margin-bottom:10px;
   letter-spacing:-1px;
 }
+#video iframe{
+  border:2px solid #B2B2B2;
+  margin-left:30px;
+}
 #main-content{
   margin-top:50px;
 /*  border:1px solid #ccc;*/
