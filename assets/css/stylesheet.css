@@ -321,7 +321,8 @@ footer .arrow6{
   margin:0 auto;
   padding:10px 0px;
   letter-spacing:-1px;
-  width:9em;
+  width:10em;
+  text-align:center;
 /*  border:1px solid #ccc;*/
 }
 .where h1:hover{
