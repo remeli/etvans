@@ -317,11 +317,12 @@ footer .arrow6{
   margin-bottom:70px;
 }
 .where h1{
-  font-size:30px;
+  font-size:1.5em;
   margin:0 auto;
   padding:10px 0px;
   letter-spacing:-1px;
-  width:260px;
+  width:9em;
+/*  border:1px solid #ccc;*/
 }
 .where h1:hover{
   color:#5A5A5A;
