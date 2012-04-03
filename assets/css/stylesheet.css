@@ -328,6 +328,7 @@ footer .arrow6{
 }
 
 /* modal windows: */
+/* demo access */
 #demo-window{
   width:580px;
   height:250px;
@@ -350,5 +351,30 @@ footer .arrow6{
   color:#6C6C6C;
 }
 .access-demo{
+  font-weight:bold;
+}
+/* trial access */
+#trial-window{
+  width:580px;
+  height:250px;
+}
+#trial-window .title-trial{
+  font-size:30px;
+  margin-top:20px;
+  text-align:center;
+  letter-spacing:-1px;
+}
+#trial-window .desc-trial{
+  margin-top:20px;
+  padding-left:10px;
+  padding-right:10px;
+}
+#trial-window .desc-trial p{
+  margin-bottom:10px;
+}
+#trial-window a{
+  color:#6C6C6C;
+}
+.access-trial{
   font-weight:bold;
 }
