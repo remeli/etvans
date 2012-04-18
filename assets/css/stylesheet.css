@@ -126,8 +126,12 @@ a:hover{
 .info-visual{
   padding-top:70px;
 }
+.arrows-server{
+  height:100px;
+  border:1px solid #fff;
+}
 #etvans-server{
-  margin:0px auto;
+  margin:-80px auto 0px auto;
 /*  background:url('../images/etvans-server.png') no-repeat;*/
   height:346px;
   width:351px;
@@ -288,32 +292,35 @@ footer .arrow6{
   color:#898989;
 }
 .prices table{
-/*  border:1px solid #ccc;*/
+  border:1px solid #eee;
 /*  width:50%;*/
   font-size:18px;
   margin-top:10px;
 }
 .prices table th{
-  font-size:12px;
+  font-size:0.6em;
 }
 .prices table td,th{
-  padding:5px 5px 5px 10px;
-  width:10%;
+  padding:10px 5px 10px 10px;
+  width:1%;
 }
 .prices table td{
   color:#517299;
-  padding-top:10px;
-  padding-bottom:5px;
+  padding-top:27px;
+  padding-bottom:27px;
+}
+.prices table tr:hover{
+  background:#F9F9F9;
 }
 .prices table thead th{
-  border-bottom:2px solid #535353;
+  border-bottom:2px solid #eee;
   color:#D6834F;
 }
 .bord-table{
-  border-right:1px solid #535353;
+  border-right:1px solid #eee;
 }
 .where{
-  margin-top:10px;
+  margin-top:30px;
   margin-bottom:70px;
 }
 .where h1{
@@ -379,4 +386,14 @@ footer .arrow6{
 }
 .access-trial{
   font-weight:bold;
+}
+#discount-20{
+/*  border:1px solid #ccc;*/
+  width:128px;
+  height:127px;
+  float:right;
+  bottom:123px;
+  right:-10px;
+  position:relative;
+  background:url('../images/discount-201.png') no-repeat;
 }
